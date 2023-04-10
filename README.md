@@ -1,9 +1,11 @@
 # RAWBlur
 Towards Real-World Video Deblurring by Exploring Blur Formation Process
 
-[[ArXiv](https://arxiv.org/abs/2208.13184)]
+[ArXiv](https://arxiv.org/abs/2208.13184) **|** [UHFRaw Dataset](https://drive.google.com/drive/folders/1hlxTVizoH8-AJGMbS_d-LRRdivSPIvcz?usp=share_link)
 
-> In this paper, we explore the blur formation process and propose to synthesize realistic blurs in RAW space rather than RGB space for real-world video deblurring. A novel blur synthesis pipeline RAWBlur and a corresponding UHFRaw (ultra-high-framerate RAW video) dataset are presented. Corresponding experiments and analysis demonstrate the proposed pipeline can help existing video deblurring models generalize well in the real blurry scenarios.
+---
+
+> We explore the blur formation process and propose to synthesize realistic blurs in RAW space rather than RGB space for real-world video deblurring. A novel blur synthesis pipeline RAWBlur and a corresponding UHFRaw (ultra-high-framerate RAW video) dataset are presented. Corresponding experiments and analysis demonstrate the proposed pipeline can help existing video deblurring models generalize well in the real blurry scenarios.
 
 <img src="./assets/teaser.png" align="middle">
 
@@ -14,13 +16,17 @@ Towards Real-World Video Deblurring by Exploring Blur Formation Process
 
 ## UHFRaw Dataset
 
-[TBA]
+You can download the source ultra high-framerate sharp frames dataset UHFRaw:
+
+[Google Drive](https://drive.google.com/drive/folders/1hlxTVizoH8-AJGMbS_d-LRRdivSPIvcz?usp=share_link)
+
+[Baidu Yun (coming soon)]()
+
+Note that the dataset can be only used for research purpose.
 
 ## Training Configs
 
-We provide the training configs of the models used in our paper.
-
-[TBA]
+We use the inplementations of DBN and EDVR in [SimDeblur](https://github.com/ljzycmd/SimDeblur) framework, and train these models with the synthesized blurry video.
 
 ## Citation
 
