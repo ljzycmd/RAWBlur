@@ -5,7 +5,7 @@ Towards Real-World Video Deblurring by Exploring Blur Formation Process
 
 ---
 
-> We explore the blur formation process and propose to synthesize realistic blurs in RAW space rather than RGB space for real-world video deblurring. A novel blur synthesis pipeline RAWBlur and a corresponding UHFRaw (ultra-high-framerate RAW video) dataset are presented. Corresponding experiments and analysis demonstrate the proposed pipeline can help existing video deblurring models generalize well in the real blurry scenarios.
+> We explore the blur formation process and propose to synthesize realistic blurs in RAW space rather than RGB space for real-world video deblurring. A novel blur synthesis pipeline RAWBlur and a corresponding UHFRaw (ultra-high-framerate RAW video) dataset are presented. Corresponding experiments and analysis demonstrate the proposed pipeline can help existing video deblurring models generalize well in real blurry scenarios.
 
 <div aligh="center>
 <img src="./assets/teaser.png" align="middle">
@@ -16,7 +16,7 @@ Towards Real-World Video Deblurring by Exploring Blur Formation Process
 <div align=center>
 <img src="./assets/pipelines.png">
 <p>
-Real-world and synthetic blur formation processes. Our pipeline directly synthesize the blurs in RAW space and further add the noise to simulate the real blurs.
+Real-world and synthetic blur formation processes. Our pipeline directly synthesizes the blurs in RAW space and further add the noise to simulate the real blurs.
 </p>
 </div>
 
@@ -24,19 +24,21 @@ Real-world and synthetic blur formation processes. Our pipeline directly synthes
 
 You can download the source ultra high-framerate sharp frames dataset UHFRaw:
 
-[Google Drive](https://drive.google.com/drive/folders/1kTUaUIal2oiCP0dWb-nM9Kf7uGPTc9RZ?usp=share_link)
+[Google Drive 1](https://drive.google.com/drive/folders/1kTUaUIal2oiCP0dWb-nM9Kf7uGPTc9RZ?usp=share_link)
+
+[Google Drive 2](https://drive.google.com/drive/folders/1BKdfGrlecig4td1RY0xkuUBxNwR8lEDE?usp=sharing)
 
 Baidu Yun (coming soon)
 
-Note that the dataset can be only used for research purpose.
+Note that the dataset can be only used for research purposes.
 
 ## Training Configs
 
-We use the inplementations of DBN and EDVR in [SimDeblur](https://github.com/ljzycmd/SimDeblur) framework, and train these models with the synthesized blurry video.
+We use the implementations of DBN and EDVR in [SimDeblur](https://github.com/ljzycmd/SimDeblur) framework and train these models with the synthesized blurry video.
 
 ## Citation
 
-If RAWBlur piepline and UHFRaw dataset are useful for your research, please consider citing our paper
+If the RAWBlur pipeline and UHFRaw dataset are helpful for your research, please consider citing our paper.
 
 ```bibtex
 @article{cao2022towards,
